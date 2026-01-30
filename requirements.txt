@@ -1,0 +1,50 @@
+# Backend Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+httpx==0.25.2
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+sqlite3
+
+# AI/ML Dependencies
+sentence-transformers==2.2.2
+torch==2.1.1
+transformers==4.36.0
+clip-by-openai==1.0
+pillow==10.1.0
+numpy==1.24.3
+
+# Vector Database
+qdrant-client==1.7.0
+
+# Frontend Dependencies
+streamlit==1.29.0
+requests==2.31.0
+pandas==2.1.4
+plotly==5.17.0
+
+# Data Processing
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Utilities
+pickle5==0.0.12
+hashlib
+datetime
+random
+json
+os
+sys
+typing
+
+# Development Dependencies
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
